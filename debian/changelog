@@ -1,0 +1,39 @@
+ruby-unf (0.1.4-2) unstable; urgency=medium
+
+  * Tighten dependency on ruby-unf-ext (for gitlab) 
+
+ -- Pirate Praveen <praveen@debian.org>  Tue, 19 Jul 2016 19:25:44 +0530
+
+ruby-unf (0.1.4-1) unstable; urgency=medium
+
+  * New upstream release.
+
+ -- Pirate Praveen <praveen@debian.org>  Mon, 28 Sep 2015 23:53:00 +0530
+
+ruby-unf (0.1.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Re-upload to unstable. 
+
+ -- Pirate Praveen <praveen@debian.org>  Tue, 28 Apr 2015 11:22:35 +0530
+
+ruby-unf (0.1.0-1) experimental; urgency=medium
+
+  * Team upload.
+  * New upstream release.
+  * Bump standards version to 3.9.6 (no changes).
+
+ -- Pirate Praveen <praveen@debian.org>  Fri, 21 Nov 2014 13:35:05 +0530
+
+ruby-unf (0.0.5-1) unstable; urgency=low
+
+  * New upstream release
+  * Standards-version 3.9.2→3.9.3 (no changes needed)
+
+ -- Gunnar Wolf <gwolf@debian.org>  Thu, 08 Mar 2012 17:59:17 -0600
+
+ruby-unf (0.0.4-1) unstable; urgency=low
+
+  * Initial release (Closes: #656284)
+
+ -- Gunnar Wolf <gwolf@debian.org>  Tue, 17 Jan 2012 18:31:43 -0600

@@ -1,0 +1,26 @@
+Source: ruby-unf
+Section: ruby
+Priority: optional
+Maintainer: Debian Ruby Extras Maintainers <pkg-ruby-extras-maintainers@lists.alioth.debian.org>
+Uploaders: Gunnar Wolf <gwolf@debian.org>,
+           Pirate Praveen <praveen@debian.org>
+Build-Depends: debhelper (>= 9~),
+               gem2deb,
+               ruby-unf-ext (>= 0.0.7.2~)
+Standards-Version: 3.9.8
+Vcs-Git: https://anonscm.debian.org/git/pkg-ruby-extras/ruby-unf.git
+Vcs-Browser: https://anonscm.debian.org/cgit/pkg-ruby-extras/ruby-unf.git
+Homepage: http://github.com/knu/ruby-unf
+XS-Ruby-Versions: all
+
+Package: ruby-unf
+Architecture: all
+XB-Ruby-Versions: ${ruby:Versions}
+Depends: ruby | ruby-interpreter,
+         ruby-unf-ext (>= 0.0.7.2~),
+         ${misc:Depends},
+         ${shlibs:Depends}
+Description: Wrapper library to bring Unicode Normalization Form support to Ruby
+ This library allows code to be portable between Ruby implementations,
+ using 'unf_ext' under CRuby and 'java.text.Normalizer' on JRuby. It
+ normalizes UTF-8 strings into and from NFC, NFD, NFKC or NFKD
